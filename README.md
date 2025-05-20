@@ -1,1 +1,14 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/T2vUNN1h)
+# Resposta da atividade📓
+
+## Questão 4
+
+**a) Alocação de memória:**
+- Arrays de tipos primitivos (int[], double[]) armazenam os valores diretamente na memória contígua.
+- Arrays de objetos (Aluno[], Produto[]) armazenam referências (endereços) para os objetos reais, que estão alocados em outras áreas da memória (heap).
+
+**b) Cuidados ao acessar arrays de objetos:**
+- É necessário verificar se o índice acessado não está nulo. Caso contrário, pode ocorrer NullPointerException.
+- Exemplo:
+  if (alunos[i] != null) {
+  System.out.println(alunos[i].nome);
+  }
